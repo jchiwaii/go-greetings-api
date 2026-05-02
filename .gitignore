@@ -1,0 +1,14 @@
+# Go build output
+bin/
+dist/
+.gocache/
+*.exe
+*.test
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary logs
+*.log

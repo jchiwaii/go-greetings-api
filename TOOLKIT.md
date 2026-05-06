@@ -279,23 +279,19 @@ GET /greet?name=Amina -> {"name":"Amina","message":"Hello, Amina! Welcome to Go.
 POST /greet -> {"name":"Grace Hopper","message":"Hello, Grace Hopper! Welcome to Go.","timestamp":"2026-05-02T19:41:45Z"}
 ```
 
-### Peer testing checklist
+### Peer testing guide
 
-Ask a peer to follow only the README, without extra explanation.
+Ask a peer to follow only the README, without extra explanation. Use this checklist to confirm that the guide is clear for a beginner.
 
-| Task | Peer result | Notes |
-| --- | --- | --- |
-| Install or confirm Go with `go version` | Pass / Needs help | |
-| Run `go run .` | Pass / Needs help | |
-| Open `http://localhost:8080/` | Pass / Needs help | |
-| Run `curl "http://localhost:8080/greet?name=Amina"` | Pass / Needs help | |
-| Run the POST example | Pass / Needs help | |
-| Run `go test ./...` | Pass / Needs help | |
-| README was clear enough to follow | Yes / No | |
-
-### Iteration notes
-
-After peer testing, update this section with any feedback. Example improvements might include clearer install steps, an extra screenshot, or a shorter explanation of `go.mod`.
+| Task | What to confirm |
+| --- | --- |
+| Install or confirm Go with `go version` | The command prints a Go version. |
+| Run `go run .` | The server starts on `http://localhost:8080`. |
+| Open `http://localhost:8080/` | The welcome message appears. |
+| Run `curl "http://localhost:8080/greet?name=Amina"` | The API returns a JSON greeting for Amina. |
+| Run the POST example | The API returns a JSON greeting for Grace Hopper. |
+| Run `go test ./...` | All tests pass. |
+| Review the README | The setup and run steps are clear enough to follow. |
 
 ## 9. References
 

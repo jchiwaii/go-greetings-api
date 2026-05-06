@@ -147,4 +147,4 @@ http://localhost:3000
 
 ## Capstone Documentation
 
-The full toolkit document is in [TOOLKIT.md](/Users/user/Desktop/projects/project/TOOLKIT.md). It includes setup steps, the minimal working example, AI prompt journal, common issues, peer testing checklist, and references.
+The full toolkit document is in [TOOLKIT.md](./TOOLKIT.md). It includes setup steps, the minimal working example, AI prompt journal, common issues, peer testing checklist, and references.

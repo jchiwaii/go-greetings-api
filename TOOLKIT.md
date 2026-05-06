@@ -55,7 +55,7 @@ mkdir go-greeting-api
 cd go-greeting-api
 ```
 
-This submitted repository already contains the files, so if you are using this codebase, just open the folder in your terminal.
+This repository already contains the files, so if you are using this codebase, just open the folder in your terminal.
 
 ### Step 2: Initialize a Go module
 
@@ -63,7 +63,7 @@ This submitted repository already contains the files, so if you are using this c
 go mod init moringa-go-greeting-api
 ```
 
-This creates a `go.mod` file. The submitted project already has this file:
+This creates a `go.mod` file. This project already has this file:
 
 ```go
 module moringa-go-greeting-api
@@ -197,7 +197,7 @@ func writeJSON(w http.ResponseWriter, status int, payload any) {
 }
 ```
 
-The submitted `main.go` expands this minimal example by also supporting `POST /greet`, invalid JSON handling, method checks, and a security header.
+The project `main.go` expands this minimal example by also supporting `POST /greet`, invalid JSON handling, method checks, and a security header.
 
 ## 6. AI Prompt Journal
 
@@ -306,16 +306,3 @@ After peer testing, update this section with any feedback. Example improvements 
 - Go `encoding/json` package documentation: https://pkg.go.dev/encoding/json
 - Effective Go: https://go.dev/doc/effective_go
 - Moringa AI portal for prompts: https://ai.moringaschool.com/
-
-## 10. Submission Notes
-
-Submit both parts:
-
-1. Documentation: `TOOLKIT.md` or export it as PDF.
-2. Working codebase: upload this repository to GitHub or submit it as a ZIP file.
-
-Recommended GitHub repository name:
-
-```text
-go-greeting-api-beginner-toolkit
-```
